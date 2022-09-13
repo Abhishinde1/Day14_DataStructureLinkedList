@@ -4,10 +4,10 @@
     {
         static void Main(string[] args)
         {
-            LinkedList list = new LinkedList();
-            list.Add(56);
-            list.Add(30);
-            list.Add(70);
+            UC2 list = new UC2();
+            list.Addfirst(70);
+            list.Addfirst(30);
+            list.Addfirst(56);
             list.display();
         }
     }
