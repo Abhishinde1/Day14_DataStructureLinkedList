@@ -4,10 +4,11 @@
     {
         static void Main(string[] args)
         {
-            UC4 list = new UC4();
+            UC5 list = new UC5();
+            list.AddEnd(30);
             list.AddEnd(56);
             list.AddEnd(70);
-            list.InserInBetween(30, 2);
+            list.DeleteFirstNode();
             list.display();
         }
     }
