@@ -4,12 +4,13 @@
     {
         static void Main(string[] args)
         {
-            UC5 list = new UC5();
-            list.AddEnd(30);
+            UC6 list = new UC6();
             list.AddEnd(56);
+            list.AddEnd(30);
             list.AddEnd(70);
-            list.DeleteFirstNode();
+            list.DeleteLastNode();
             list.display();
+
         }
     }
 }
